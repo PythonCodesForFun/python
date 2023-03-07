@@ -1,0 +1,31 @@
+#imports the turtle
+import turtle
+#draws first line
+t = turtle.Turtle()
+def drawTriangle():
+ t.pendown()
+ t.forward(100)
+ t.left(90)
+ t.forward(100)
+ t.penup()
+ t.goto(0,0)
+#makes the 2nd line
+def main():
+ drawTriangle()
+ t.goto(0,0)
+ t.pendown()
+ t.left(0)
+ t.forward(0)
+ drawTriangle()
+
+main()
+#makes the 3rd and 4th line
+def main():
+ drawTriangle()
+ t.goto(0,0)
+ t.pendown()
+ t.left(0)
+ t.forward(0)
+ drawTriangle()
+
+main()
